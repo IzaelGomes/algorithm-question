@@ -7,6 +7,8 @@ function validBraces(braces){
     '}': '{',
   }
 
+  console.log("ola")
+
   for (let i = 0; i < caracters.length; i++) {
     if ([")", "]", "}"].includes(caracters[i]) && open.length <= 0) {
       return false
